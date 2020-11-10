@@ -109,4 +109,12 @@ class SliverCustomHeader implements SliverPersistentHeaderDelegate{
   @override
   // TODO: implement stretchConfiguration
   OverScrollHeaderStretchConfiguration get stretchConfiguration => null;
+
+  @override
+  // TODO: implement showOnScreenConfiguration
+  PersistentHeaderShowOnScreenConfiguration get showOnScreenConfiguration => throw UnimplementedError();
+
+  @override
+  // TODO: implement vsync
+  TickerProvider get vsync => throw UnimplementedError();
 }
